@@ -1,5 +1,5 @@
 # Electron.js
-Build Cross Platform Desktop with Electron.js &amp; Nativefier
+Build Cross Platform Desktop with Electronjs &amp; Nativefier
 
 Required Instalation :
 - Install Node.js (https://nodejs.org/en/download/)
@@ -9,5 +9,9 @@ Required Instalation :
 
 IT'S A BEAUTIFUL MAGIC :)
 1. For a simple create desktop app :<br>
-  <code>nativefier "http://codepolitan.com"</code><br>or<br>
-  <code></code>
+  - <code>nativefier "http://domain.com"</code><br>or<br>
+  <code>nativefier --single-instance -i "<u>icon directory</u>" --name "<u>Name App</u>" "http://domain.com/"</code>
+2. Create .exe installer
+  - Open and setup file "build_installer.js"
+  - run a file with command
+  <code>#node build_installer</code>
